@@ -3,7 +3,7 @@
     <img alt="Vue logo" class="logo" height="125" src="@/assets/logo.svg" width="125"/>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!"/>
+      <HelloWorld msg="Element Plus"/>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
