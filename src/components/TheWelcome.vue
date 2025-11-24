@@ -83,7 +83,7 @@
   </WelcomeItem>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
@@ -93,3 +93,6 @@ import SupportIcon from './icons/IconSupport.vue'
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
+
+<style lang="scss" scoped>
+</style>

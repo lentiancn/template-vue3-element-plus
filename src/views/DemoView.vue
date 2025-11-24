@@ -1,15 +1,17 @@
 <template>
   <div class="demo">
-    <h1>This is an demo page</h1>
+    <p>
+      <RouterLink to="/demo/table">表格</RouterLink>
+    </p>
+    <p>
+      ...
+    </p>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .demo {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+<script setup lang="ts">
+import {RouterLink} from "vue-router";
+</script>
+
+<style lang="scss" scoped>
 </style>

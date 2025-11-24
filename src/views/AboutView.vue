@@ -4,7 +4,10 @@
   </div>
 </template>
 
-<style>
+<script setup lang="ts">
+</script>
+
+<style lang="scss" scoped>
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

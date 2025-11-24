@@ -18,12 +18,12 @@
   <RouterView/>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import {RouterLink, RouterView} from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;

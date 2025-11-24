@@ -12,7 +12,10 @@
   </div>
 </template>
 
-<style scoped>
+<script setup lang="ts">
+</script>
+
+<style lang="scss" scoped>
 .item {
   margin-top: 2rem;
   display: flex;
