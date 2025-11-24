@@ -5,8 +5,10 @@
     <div class="wrapper">
       <HelloWorld msg="Vue3 + Element Plus"/>
 
+      <RouterLink to="/demo">进入 Demo</RouterLink>
+
       <nav>
-        <div>或进入页面：</div>
+        <div>或：</div>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>

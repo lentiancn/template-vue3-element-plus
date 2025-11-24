@@ -1,7 +1,6 @@
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <el-button type="primary">进入DEMO</el-button>
   </div>
 </template>
 
