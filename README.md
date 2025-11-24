@@ -18,13 +18,13 @@ Vue3 + Element Plus 工程模板 - This template should help get you started dev
 * ESLint（错误预防）
 * Prettier（代码格式化）
 
-## 端到端测试框架
+### 端到端测试框架
 
-Playwright (https://playwright.dev/)
+* Playwright (https://playwright.dev/)
 
-## 包含的试验特性
+### 试验特性
 
-Oxlint
+* Oxlint
 
 ## Recommended IDE Setup
 
