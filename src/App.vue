@@ -4,7 +4,7 @@
 
     <div class="wrapper">
       <HelloWorld msg="Vue3 + Element Plus"/>
-      <el-button type="primary">进入DEMO</el-button>
+      <p>或进入以下页面：</p>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
