@@ -4,7 +4,7 @@ import {ElMessage} from 'element-plus'
 // 创建 Axios 实例
 const request = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL,
-  timeout: 10000
+  timeout: import.meta.env.VITE_API_TIMEOUT
 })
 
 // 请求拦截器：添加 token、处理请求参数
