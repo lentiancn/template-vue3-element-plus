@@ -3,9 +3,11 @@
     <h1>数据表格</h1>
 
     <el-table :data="tableData" style="width: 100%">
-      <el-table-column label="Date" prop="date" width="180"/>
-      <el-table-column label="Name" prop="name" width="180"/>
-      <el-table-column label="Address" prop="address"/>
+      <el-table-column label="string值" prop="stringValue" width="180"/>
+      <el-table-column label="number值" prop="numberValue"/>
+      <el-table-column label="date值" prop="dateValue" width="180"/>
+      <el-table-column label="enum值" prop="enumValue"/>
+      <el-table-column label="boolean值" prop="booleanValue"/>
     </el-table>
   </div>
 </template>

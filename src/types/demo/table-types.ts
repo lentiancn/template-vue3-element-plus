@@ -1,6 +1,8 @@
 export interface TableDataItem {
   id: string
-  date: string
-  name: string
-  address: string
+  stringValue: string
+  numberValue: number
+  dateValue: string
+  enumValue: number
+  booleanValue: boolean
 }

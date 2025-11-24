@@ -1,6 +1,5 @@
 // TODO 需要集成后端，再打开这行代码
 // import request from '../request.ts'
-
 import type {TableDataItem} from "@/types/demo/table-types.ts";
 
 // 获取表格数据
@@ -12,27 +11,35 @@ export const getTableData = (data: { param1: string; param2: string }) => {
   const tableData = [
     {
       id: '1',
-      date: '2016-05-03',
-      name: 'Tom',
-      address: 'No. 189, Grove St, Los Angeles',
+      stringValue: 'John Brown',
+      numberValue: 1,
+      dateValue: '2016-05-03',
+      enumValue: 1,
+      booleanValue: true
     },
     {
       id: '2',
-      date: '2016-05-02',
-      name: 'Tom',
-      address: 'No. 189, Grove St, Los Angeles',
+      stringValue: 'Jim Green',
+      numberValue: 2,
+      dateValue: '2016-05-02',
+      enumValue: 2,
+      booleanValue: true
     },
     {
       id: '3',
-      date: '2016-05-04',
-      name: 'Tom',
-      address: 'No. 189, Grove St, Los Angeles',
+      stringValue: 'Joe Black',
+      numberValue: 3,
+      dateValue: '2016-05-04',
+      enumValue: 3,
+      booleanValue: false
     },
     {
       id: '4',
-      date: '2016-05-01',
-      name: 'Tom',
-      address: 'No. 189, Grove St, Los Angeles',
+      stringValue: 'Jon Snow',
+      numberValue: 4,
+      dateValue: '2016-05-01',
+      enumValue: 4,
+      booleanValue: false
     }
   ]
   return new Promise<{ data: TableDataItem[] }>((resolve) => {
