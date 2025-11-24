@@ -83,7 +83,7 @@
   </WelcomeItem>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
