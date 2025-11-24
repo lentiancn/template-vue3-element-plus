@@ -9,6 +9,7 @@ Vue3 + Element Plus 工程模板 - This template should help get you started dev
 ## 包含的功能
 
 * Vue (3.5.22)
+* Element Plus (2.11.8)
 * TypeScript
 * JSX 支持
 * Router（单页面应用开发）
