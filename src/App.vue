@@ -4,9 +4,9 @@
 
     <div class="wrapper">
       <HelloWorld msg="Vue3 + Element Plus"/>
-      <p>或进入以下页面：</p>
 
       <nav>
+        <div>或进入页面：</div>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
