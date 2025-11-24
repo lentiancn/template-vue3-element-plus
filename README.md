@@ -4,8 +4,7 @@
 
 ## 介绍
 
-Vue3 + Element Plus 工程模板
-This template should help get you started developing with Vue 3 in Vite.
+Vue3 + Element Plus 工程模板 - This template should help get you started developing with Vue 3 in Vite.
 
 ## 包含的功能
 
