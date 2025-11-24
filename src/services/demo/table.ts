@@ -1,12 +1,7 @@
 // TODO 需要集成后端，再打开这行代码
 // import request from '../request.ts'
 
-export interface TableDataItem {
-  id: string
-  date: string
-  name: string
-  address: string
-}
+import type {TableDataItem} from "@/types/demo/table-types.ts";
 
 // 获取表格数据
 export const getTableData = (data: { param1: string; param2: string }) => {

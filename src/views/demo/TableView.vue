@@ -12,7 +12,8 @@
 
 <script lang="ts" setup>
 import {onMounted, ref} from "vue"
-import {getTableData, type TableDataItem} from '@/services/demo/table'
+import {getTableData} from '@/services/demo/table.ts'
+import type {TableDataItem} from "@/types/demo/table-types.ts";
 
 let tableData = ref<TableDataItem[]>([])
 
